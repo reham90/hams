@@ -1194,6 +1194,9 @@ background: -moz-linear-gradient( 48deg, rgb(254,218,117) 0%, rgb(250,126,30) 25
     white-space: nowrap;
     max-width: 100%;
 }
+.copy{
+  flex-wrap: wrap;
+}
 }
 
 
