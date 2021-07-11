@@ -989,7 +989,16 @@ background: -moz-linear-gradient( 48deg, rgb(254,218,117) 0%, rgb(250,126,30) 25
   flex-wrap: wrap;
   padding-top: 50px;
 }
-
+.ban img{
+  width: 100%;
+}
+.slider-img img{
+  padding: 15px;
+  padding-top: 18px;
+}
+.ban{
+  margin-bottom: 15px;
+}
 .pro{
   padding-top: 40px;
  padding-bottom: 80px;
