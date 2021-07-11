@@ -449,48 +449,6 @@ nav ul{
   height: 645px;
   background-repeat: no-repeat;
 }
-.slider-content{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 595px;
-  margin-top: 45px;
-}
-.caption{
-  width: 460px;
- 
- 
-}
-.caption h1{
-  font-size: 63px;
-  color: #000;
-  margin: 0;
-  text-transform: capitalize;
-  font-weight: bold;
-}
-.caption a{
-  font-size: 17px;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   background: -moz-linear-gradient( 90deg, rgb(38,152,72) 0%, rgb(166,196,56) 100%);
-  background: -webkit-linear-gradient( 90deg, rgb(38,152,72) 0%, rgb(166,196,56) 100%);
-  background: -ms-linear-gradient( 90deg, rgb(38,152,72) 0%, rgb(166,196,56) 100%);
-   width: 160px;
-  height: 46px;
-  border-radius: 23px;
-  margin-top: 33px;
-  transition: 0.5s;
-}
-.caption a:hover{
-  text-decoration: none;
-  background: -moz-linear-gradient( 90deg, rgb(166,196,56) 0% ,rgb(38,152,72) 100%);
-  background: -webkit-linear-gradient( 90deg, rgb(166,196,56) 0% ,rgb(38,152,72) 100%);
-  background: -ms-linear-gradient( 90deg,  rgb(166,196,56) 0% ,rgb(38,152,72) 100%);
-}
 
 
 .slider .owl-nav button.owl-prev, .slider .owl-nav button.owl-next{
@@ -504,6 +462,10 @@ nav ul{
     transition: 0.5s;
 }
 
+.slider-img img{
+  width: 100%;
+  padding-top: 86px;
+}
 
 .slider .owl-nav button.owl-prev:hover, .slider .owl-nav button.owl-next:hover{
   background: #000;
@@ -540,64 +502,7 @@ margin-right: -143px !important;
   padding-top: 29px;
 
 }
-.ban{
- background-image: url(../images/ban-bg.png);
-    background-repeat: no-repeat;
-    width: 557px;
-    height: 327px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.ban-img{
-       background-image: url(../images/ban-img-bg.png);
-    background-position: 0 50px;
-    background-repeat: no-repeat;
-    width: 166px;
-    display: flex;
-    height: 240px;
-    align-items: center;
-    justify-content: center;
-}
-.ban-img img{
-  padding-top: 20px;
-}
-.ban-text{
-  width: 220px;
-  margin-left: 15px;
-}
-.ban-text h1{
-  font-size: 31px;
-  font-weight: bold;
-  color: #000;
-  margin: 0;
-  text-transform: capitalize;
-}
-.ban-text a{
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: -moz-linear-gradient( 90deg, rgb(38,152,72) 0%, rgb(166,196,56) 100%);
-  background: -webkit-linear-gradient( 90deg, rgb(38,152,72) 0%, rgb(166,196,56) 100%);
-  background: -ms-linear-gradient( 90deg, rgb(38,152,72) 0%, rgb(166,196,56) 100%);
-  width: 124px;
-  height: 38px;
-  border-radius: 23px;
-  margin-top: 14px;
-  transition: 0.5s;
-  margin-right: 2px;
-}
 
-.ban-text a:hover{
-  text-decoration: none;
-  background: -moz-linear-gradient( 90deg, rgb(166,196,56) 0% ,rgb(38,152,72) 100%);
-  background: -webkit-linear-gradient( 90deg, rgb(166,196,56) 0% ,rgb(38,152,72) 100%);
-  background: -ms-linear-gradient( 90deg,  rgb(166,196,56) 0% ,rgb(38,152,72) 100%);
-}
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -1079,66 +984,12 @@ background: -moz-linear-gradient( 48deg, rgb(254,218,117) 0%, rgb(250,126,30) 25
   height: auto;
   background-position: center;
 }
-.slider-content{
-  height: auto;
-  margin-top: 0;
-  padding: 20px;
-}
-.caption{
-  width: 500px;
-}
-.caption h1{
-  font-size: 22px;
-}
-.caption a{
-  width: 130px;
-    height: 35px;
-    font-size: 15px;
-    margin-top: 15px;
-}
+
 .small-banners{
   flex-wrap: wrap;
   padding-top: 50px;
 }
-.ban{
-  width: 100%;
-  
-  height: 210px;
-  margin-bottom: 15px;
-}
-.ban-img{
-  width: 329px;
-  
-  transform: scale(0.7);
-  background-position: 0 center;
-}
-.ban-img img{
-  padding-top: 0;
-}
-.ban-text{
-  width: 100%;
-  margin-right: 0;
-  padding-left: 10px;
-}
-.ban-text h1{
-  font-size: 22px;
-  
-    text-align: center;
-}
-.ban-text a{
-  margin-left: auto;
-  margin-right: auto;
 
-  text-align: center;
-}
-
-
-.img-block span {
-    font-size: 10px;
-    width: 60px;
-    height: 20px;
-
-}
 .pro{
   padding-top: 40px;
  padding-bottom: 80px;
