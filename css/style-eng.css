@@ -89,16 +89,7 @@ nav ul li a:first-child{
 }
 
 
-/* Mobile navigation */
-.nav-mobile {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 10px;
-  background: transparent;
-  /* height: 45px; */
-  width: 45px;
-}
+
 
 @media only screen and (max-width: 798px) {
   .nav-mobile {
@@ -195,16 +186,16 @@ nav ul li a:first-child{
   }
 }
 #nav-toggle {
- position: absolute;
- top: 17px;
- left: 15px;
+ /* position: absolute; */
+ /* top: 17px; */
+ /* left: 15px; */
  cursor: pointer;
 }
 #nav-toggle i{
   cursor: pointer;
   font-size: 16px;
   color: #231F20;
-  position: absolute;
+  /* position: absolute; */
   content: "";
   width: 40px;
   height: 40px;
@@ -1056,26 +1047,49 @@ background: -moz-linear-gradient( 48deg, rgb(254,218,117) 0%, rgb(250,126,30) 25
   display: block;
 }
 .mail input{
-  width: 100%;
+  width: 90%;
 }
 .mail-content .env{
   top:14px;
+  left: 15px;
 }
 .part{
-  top: 4px;
+  top: 2px;
+  width: 110px;
+  right: 23px;
+  height: 40px;
 }
 .pay{
   width: 100%;
 }
 .footer-links{
-  display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    max-width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 40px;
 }
 .copy{
   flex-wrap: wrap;
+  margin-top: 40px;
+}
+.features .owl-nav{
+  display: none;
+}
+.features .owl-dots{
+  position: absolute;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    bottom: 15px;
+}
+.features{
+  padding-top: 20px;
+}
+.social{
+  margin-bottom: 40px;
 }
 }
 

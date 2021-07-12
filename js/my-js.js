@@ -126,6 +126,36 @@ $(document).ready(function() {
 })
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+$(document).ready(function() {
+    if($(window).width()<991){
+    var owl = $('.features');
+    owl.owlCarousel({
+        margin: 10,
+        nav: true,
+        rtl: document.dir == 'rtl' ? true : false,
+        
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        navText: ["<i class='fas fa-arrow-right'></i>", "<i class='fas fa-arrow-left'></i>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1200: {
+                items: 1
+            }
+
+        }
+    })
+}
+
+})
 
 
