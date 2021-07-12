@@ -894,12 +894,16 @@ background: -moz-linear-gradient( 48deg, rgb(254,218,117) 0%, rgb(250,126,30) 25
   text-decoration: none;
   color: #2ba63b;
 }
-.pay{
-      display: table;
-    margin-left: auto;
-    margin-right: auto;
+.payment{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+      display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
+
 .copy{
   display: flex;
   justify-content: center;
@@ -1059,8 +1063,8 @@ background: -moz-linear-gradient( 48deg, rgb(254,218,117) 0%, rgb(250,126,30) 25
   width: 100px;
   left: 23px;
 }
-.pay{
-  width: 100%;
+.payment{
+  flex-wrap: wrap;
 }
 .footer-links{
      display: flex;
